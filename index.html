@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unsplash API Demo</title>
+        <!-- <link rel="stylesheet" href="./style.css" /> -->
+        <script src="./script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Unsplash API Demo</h1>
+        </header>
+
+        <main>
+            <form id="search-form">
+                <label for="search-input" class="visually-hidden">Sök</label>
+                <input type="text" id="search-input" placeholder="Sök bilder..." required />
+
+                <select>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                </select>
+
+                <button type="submit">Sök</button>
+            </form>
+
+            <section id="image-container">
+                <!-- Images here -->
+            </section>
+
+            <button>Prev page</button>
+            <button>Next page</button>
+        </main>
+    </body>
+</html>
